@@ -1,6 +1,6 @@
 class Beer < ApplicationRecord
     belongs_to :company
 
-    validates :name, :price, :description, prescence: true
-    validares :price, numericality: true
+    validates :name, :price, :description, presence: true
+    validates :price, numericality: true
 end
